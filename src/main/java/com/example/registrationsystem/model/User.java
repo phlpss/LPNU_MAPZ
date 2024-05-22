@@ -10,21 +10,4 @@ public class User {
         this.lastName = lastName;
         this.email = email;
     }
-
-    public void save() {
-        // Save user to database
-    }
-
-    public void delete() {
-        // Delete user from database
-    }
-
-    public void updateEmail(String newEmail) {
-        this.email = newEmail;
-        // Update email in database
-    }
-
-    public String getEmail() {
-        return email;
-    }
 }

@@ -11,12 +11,4 @@ public class Group {
         this.name = name;
         this.students = new ArrayList<>();
     }
-
-    public void addStudent(Student student) {
-        students.add(student);
-    }
-
-    public void removeStudent(Student student) {
-        students.remove(student);
-    }
 }
