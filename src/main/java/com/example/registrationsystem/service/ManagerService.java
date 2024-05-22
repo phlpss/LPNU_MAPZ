@@ -15,7 +15,7 @@ public class ManagerService {
 
     public Student findStudent(String searchCriteria) {
         // Logic to find student by criteria (example: search by email)
-        return studentRepository.findByEmail(searchCriteria);
+        return (Student) studentRepository.findByEmail(searchCriteria);
     }
 
     public void formGroup(List<Student> students) {
